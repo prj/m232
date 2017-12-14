@@ -1,0 +1,131 @@
+<ADXFORMAT version="1.01">
+  <!-- Written 03/11/2013 21:34:25 -->
+  <ADXHEADER>
+    <guid>ae80b46f-70e2-47d1-9c01-3cf6d7583a2c</guid>
+    <flags>0x00</flags>
+    <objectcount>10</objectcount>
+    <author>prj</author>
+    <desc>M232 fast logging</desc>
+    <baud>187504</baud>
+    <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="3" baud="0" signed="0" lsbfirst="0" float="0" />
+    <monitorcmd>1</monitorcmd>
+  </ADXHEADER>
+
+  <ADXVALUE id="9" idhash="0x86F347BB" title="Delta TPS">
+    <packetoffset>0x04</packetoffset>
+    <range low="0.000000" high="255.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <datatype>12</datatype>
+    <MATH equation="X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="10" idhash="0xDE6A9050" title="MAF_POS">
+    <packetoffset>0x04</packetoffset>
+    <range low="0.000000" high="255.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <datatype>26</datatype>
+    <MATH equation="X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="3" idhash="0x86F3513B" title="RPM">
+    <packetoffset>0x12</packetoffset>
+    <range low="0.000000" high="255.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <datatype>6</datatype>
+    <MATH equation="X*40">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="4" idhash="0x86F3533B" title="MAP">
+    <packetoffset>0x16</packetoffset>
+    <range low="0.000000" high="255.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <datatype>24</datatype>
+    <MATH equation="X/1.03515625*82.6105/51+6.9558">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="5" idhash="0x86F3445B" title="Voltage">
+    <packetoffset>0x0F</packetoffset>
+    <range low="0.000000" high="255.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <datatype>66</datatype>
+    <MATH equation="X*0.068">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="6" idhash="0x86F347FB" title="IAT">
+    <packetoffset>0x0E</packetoffset>
+    <range low="0.000000" high="255.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <datatype>19</datatype>
+    <MATH equation="X*0.7-49">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="7" idhash="0x86F35DBB" title="ECT">
+    <packetoffset>0x0D</packetoffset>
+    <range low="0.000000" high="255.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <datatype>13</datatype>
+    <MATH equation="X*0.7-49">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="8" idhash="0x86F350FB" title="TPS">
+    <packetoffset>0x0C</packetoffset>
+    <range low="0.000000" high="255.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <datatype>57</datatype>
+    <MATH equation="X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="2" idhash="0x86F34E3B" title="LOAD">
+    <flags>0x00000002</flags>
+    <packetoffset>0x10</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="255.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <datatype>23</datatype>
+    <MATH equation="X/25">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXCLISTENPACKET id="1" idhash="0x86F3549B" title="Data stream" flags="0x00000001">
+    <listentimeout>400</listentimeout>
+    <packetbodylength>30</packetbodylength>
+    <packetoffsetinbody>0</packetoffsetinbody>
+    <packetsize>28</packetsize>
+    <headerstring size="2">AABB</headerstring>
+  </ADXCLISTENPACKET>
+</ADXFORMAT>
