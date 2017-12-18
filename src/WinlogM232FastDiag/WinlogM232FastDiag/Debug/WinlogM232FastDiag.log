@@ -1,0 +1,55 @@
+﻿Build started 2/27/2013 12:09:23 AM.
+Project "C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WinlogM232FastDiag\WinlogM232FastDiag\WinlogM232FastDiag.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\WinlogM232FastDiag.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WINLOGM232FASTDIAG_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WinlogDriver.cpp
+  WinlogDriver.cpp
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(140): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(142): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(143): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(144): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(145): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(146): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(147): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(148): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(149): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(154): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(155): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(156): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(157): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(158): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(159): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(160): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(162): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(163): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(164): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(165): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(166): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(176): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\administrator\my documents\visual studio 2010\projects\winlogm232fastdiag\winlogm232fastdiag\winlogdriver.cpp(196): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+ResourceCompile:
+  All outputs are up-to-date.
+ManifestResourceCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WinlogM232FastDiag\Debug\WinlogM232FastDiag.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\WinlogM232FastDiag.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WinlogM232FastDiag\Debug\WinlogM232FastDiag.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WinlogM232FastDiag\Debug\WinlogM232FastDiag.lib" /MACHINE:X86 /DLL Debug\WinlogDriver.res
+  Debug\WinlogM232FastDiag.dll.embed.manifest.res
+  Debug\ComportDriver.obj
+  Debug\WinlogDriver.obj
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\WinlogM232FastDiag.dll.embed.manifest" /manifest Debug\WinlogM232FastDiag.dll.intermediate.manifest
+  All outputs are up-to-date.
+LinkEmbedManifest:
+  All outputs are up-to-date.
+  WinlogM232FastDiag.vcxproj -> C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WinlogM232FastDiag\Debug\WinlogM232FastDiag.dll
+FinalizeBuildStatus:
+  Deleting file "Debug\WinlogM232FastDiag.unsuccessfulbuild".
+  Touching "Debug\WinlogM232FastDiag.lastbuildstate".
+Done Building Project "C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WinlogM232FastDiag\WinlogM232FastDiag\WinlogM232FastDiag.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.57
