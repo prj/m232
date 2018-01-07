@@ -1,11 +1,11 @@
-<!-- Written 12/14/2017 18:50:33 -->
-<XDFFORMAT version="1.50">
+<!-- Written 01/07/2018 04:35:18 -->
+<XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
     <deftitle>Motronic 2.3.2, ADU</deftitle>
     <description></description>
     <author>prj</author>
-    <baseoffset>0</baseoffset>
+    <BASEOFFSET offset="0" subtract="0" />
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
     <REGION type="0xFFFFFFFF" startaddress="0x0" size="0x10000" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
     <CATEGORY index="0x0" name="27C512" />
@@ -7420,7 +7420,7 @@
     <title>MFTS input boost cut enabled</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="100" />
-    <XDFPATCHENTRY name="Jump disable" address="0x70EC" datasize="0x3" patchdata="307A28" basedata="000000" />
+    <XDFPATCHENTRY name="Jump disable" address="0x711C" datasize="0x2" patchdata="5009" basedata="0000" />
   </XDFPATCH>
   <XDFPATCH uniqueid="0x6319">
     <title>MFTS input map switching enabled (race fuel maps)</title>
